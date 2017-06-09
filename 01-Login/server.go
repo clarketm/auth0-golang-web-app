@@ -1,10 +1,10 @@
 package main
 
 import (
-        "github.com/auth0-samples/auth0-golang-web-app/01-Login/routes/callback"
-        "github.com/auth0-samples/auth0-golang-web-app/01-Login/routes/home"
-        "github.com/auth0-samples/auth0-golang-web-app/01-Login/routes/middlewares"
-        "github.com/auth0-samples/auth0-golang-web-app/01-Login/routes/user"
+        "github.com/clarketm/auth0-golang-web-app/01-Login/routes/callback"
+        "github.com/clarketm/auth0-golang-web-app/01-Login/routes/home"
+        "github.com/clarketm/auth0-golang-web-app/01-Login/routes/middlewares"
+        "github.com/clarketm/auth0-golang-web-app/01-Login/routes/user"
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"
 	"net/http"
